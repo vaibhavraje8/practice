@@ -9,6 +9,7 @@
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.bootstrap = factory(global.Popper));
 }*/
+//new changes has done for second time
 (this, (function (Popper) { 'use strict';
 
   function _interopNamespace(e) {
